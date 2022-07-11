@@ -15,7 +15,7 @@ const Sala = db.define('salas', {
 });
 
 //Criar a tabela
-// Sala.sync();
+Sala.sync();
 
 //Truncate
 // Sala.sync({force: true});

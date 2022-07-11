@@ -28,7 +28,7 @@ Mensagem.belongsTo(Usuario, { foreignKey: 'usuarioId', allowNull: false });
 Mensagem.belongsTo(Sala, { foreignKey: 'salaId', allowNull: false });
 
 //Criar a tabela
-// Mensagem.sync();
+Mensagem.sync();
 
 //Truncate table
 // Mensagem.sync({ force: true });

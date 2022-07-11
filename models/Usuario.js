@@ -19,7 +19,7 @@ const Usuario = db.define('usuarios', {
 });
 
 //Criar a tabela
-// Usuario.sync();
+Usuario.sync();
 
 //Truncate
 // Usuario.sync({force: true});
