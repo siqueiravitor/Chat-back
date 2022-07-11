@@ -1,47 +1,48 @@
-COMO RODAR O PROJETO BAIXADO
-Instalar todas as dependências indicada pelo package.json
-### npm install
+## COMO RODAR O PROJETO BAIXADO
 
-Rodar o projeto usando o nodemon
-### nodemon app.js
+### Instalar todas as dependências indicada pelo package.json
+- npm install
 
-SEQUENCIA PARA CRIAR O PROJETO
-Criar o arquivo package.json
-### npm init
+### Rodar o projeto usando o nodemon
+- nodemon app.js
 
-Gerenciar requisições, rotas e URL's, entre outras funcionalidades
-### npm install express 
+## SEQUENCIA PARA CRIAR O PROJETO
+### Criar o arquivo package.json
+- npm init
 
-Instalar a dependência de forma global. Executar através do prompt de comando,
-executar somente se nunca instalou a depêndencia na máquina. 
-Após instalar, reiniciar a máquina.
-### npm install -g nodemon
+### Gerenciar requisições, rotas e URL's, entre outras funcionalidades
+- npm install express 
 
-Instalar a dependência como desenvolvedor para reinicar o servidor sempre que houver alteração no código fonte.
-### npm install --save-dev nodemon
+### Instalar a dependência de forma global. Executar através do prompt de comando,
+### executar somente se nunca instalou a depêndencia na máquina. 
+### Após instalar, reiniciar a máquina.
+- npm install -g nodemon
 
-Rodas o projeto usando o nodemon
-### nodemon app.js 
+### Instalar a dependência como desenvolvedor para reinicar o servidor sempre que houver alteração no código fonte.
+- npm install --save-dev nodemon
 
-Socket.IO é uma biblioteca JavaScript para aplicativos da web em tempo real
-### npm install socket.io
+### Rodas o projeto usando o nodemon
+- nodemon app.js 
 
-Permitir acesso a API
-### npm install cors
+### Socket.IO é uma biblioteca JavaScript para aplicativos da web em tempo real
+- npm install socket.io
+
+### Permitir acesso a API
+- npm install cors
 
 
-*Instalar o banco de dados MySQL
+##  Instalar o banco de dados MySQL
 
-Verificar o banco de dados MySQL no pronpt de comando
-### mysql -h localhost -u root -p
+### Verificar o banco de dados MySQL no prompt de comando
+- mysql -h localhost -u root -p
 
-Instalar o Workbench para gerenciar o bancdo de dados de forma gráfica
+## Instalar o Workbench para gerenciar o banco de dados de forma gráfica
 
-CRIAÇÃO DO BD
+## CRIAÇÃO DO BD
 ### create database siqueiravitor CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci
 
-Sequelize é uma biblioteca JS que facilita o gerenciamento de BD SQL
-### npm install --save sequelize
+### Sequelize é uma biblioteca JS que facilita o gerenciamento de BD SQL
+- npm install --save sequelize
 
-Instalar o drive do bando de dados
-### npm install --save mysql2
+### Instalar o drive do bando de dados
+- npm install --save mysql2
